@@ -1,6 +1,7 @@
 # Death end re;Quest Resolution Patcher
 
-An unofficial patch for the Steam version of Death end re;Quest (the first game).
+An unofficial patch for the GOG (1.0) version of Death end re;Quest (the first game).
+The Steam version is untested.
 
 - **Menu fix:** On a 2560x1440 monitor, the game shows 2560x1440 as available
   but won't let you select it. This is an off-by-one bug in the menu code,
@@ -13,7 +14,7 @@ An unofficial patch for the Steam version of Death end re;Quest (the first game)
 The patcher is a single PowerShell script. It contains no game code, checks
 every byte before changing it, keeps a backup, and can undo itself.
 
-Tested on one machine: 2560x1440, Full Screen mode. Not affiliated with
+Tested on one machine: GOG release, 2560x1440, Full Screen mode. Not affiliated with
 Idea Factory or Compile Heart.
 
 The reverse engineering and the patcher script were done with Claude
